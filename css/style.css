@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin: 10px;
+}
+
+input,
+button {
+  display: block;
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+.form__input {
+  margin-bottom: 10px;
+}
+
+select {
+  margin: 20px 0px;
+  width: 150px;
+}
+
